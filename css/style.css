@@ -1,0 +1,128 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+    font-size: 1.3rem;
+    background-image: url('../images/un2.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+p span{
+    color : orange;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: palevioletred;
+}
+
+body > p{
+    font-size : 20px;
+}
+
+input[type='text'], 
+input[type='email']{
+    padding: 10px;
+    border-bottom-style: solid;
+    border-color: red;
+    border-width:  0 0 2px;
+}
+
+.form-group{
+    margin : 10px;
+}
+
+input[type='submit']{
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+input[type='text'], 
+input[type='email'], 
+input[type='submit']{
+    width:30%;
+}
+
+input[type="submit"]:hover{
+    background-color: #99333366;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.anotherbox{
+    width: 400px;
+    height: 400px;
+    background: yellow;
+    /* margin: 40px; */
+    /* margin : top right bottom left; */
+    /* margin: 2px 3px 5px 10px; */
+    /* margin: 2px 30px 10px; */
+    /* margin: 30px 10px; */
+    margin : 5px auto; /* how to center an element*/
+    /* border-style: solid; */
+    /* border-width: 10px; */
+    /* border-width: 1px 3px 5px 3px; */
+    /* border-color: lightcoral; */
+    /* border: 2px solid red; */
+    border-left: 3px solid green;
+    border-radius: 10px;
+}
+.imagediv{
+    text-align: justify;
+    /* left, right, center */
+}
+.myimage{
+    /* border-radius: 50%; */
+    border-top-right-radius: 50px;
+    width: 200px;
+    border: 5px solid rgb(199, 85, 104);
+}
+
+.demo{
+    text-decoration:overline;
+}
+
+.anotherbox a{
+    text-decoration: none;
+    color : red;
+    text-transform: capitalize;
+}
+table{
+    width : 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid #fff;
+    padding : 20px 10px;
+    text-align: center;
+}
+th{
+    background-color: #dd3d58;
+    color: #fff;
+}
+th:hover{
+    background: blue;
+}
+tr{
+    background-color: #e2c4c9;
+}
+tr:hover{
+    background-color: #c01c37;
+    color: white;
+}
